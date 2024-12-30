@@ -1,0 +1,34 @@
+POST http://localhost:8000/api/v1/claim
+content-type: application/json
+
+[
+    {
+        "service_date": "2024-12-20 14:00",
+        "submitted_procedure": "D0180",
+        "quadrant": "UR",
+        "plan": "GRP-1000",
+        "subscriber": 3730189502,
+        "provider_npi": 1497775530,
+        "provider_fees": 100.0,
+        "allowed_fees": 100.0,
+        "member_coinsurance": 0,
+        "member_copay": 0        
+    },
+    {
+        "service_date": "2024-12-20 14:00",
+        "submitted_procedure": "D0180",
+        "quadrant": "UR",
+        "plan": "GRP-1000",
+        "subscriber": 3730189502,
+        "provider_npi": 1497775531,
+        "provider_fees": 100.0,
+        "allowed_fees": 100.0,
+        "member_coinsurance": 0,
+        "member_copay": 0        
+    }
+]
+
+### Get providers list
+
+GET http://localhost:8000/api/v1/providers
+content-type: application/json

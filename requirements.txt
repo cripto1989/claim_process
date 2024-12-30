@@ -1,0 +1,6 @@
+fastapi[standard]
+psycopg2-binary
+pydantic_settings
+sqlmodel
+redis==5.2.1
+fastapi-limiter
